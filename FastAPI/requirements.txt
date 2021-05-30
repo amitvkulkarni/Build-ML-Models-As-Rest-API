@@ -1,0 +1,10 @@
+pandas
+numpy
+sklearn
+os
+yaml
+pickle
+fastapi
+uvicorn
+json
+pydantic

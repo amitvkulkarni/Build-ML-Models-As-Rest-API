@@ -1,0 +1,19 @@
+#INITIAL SETTINGS
+data_directory: "./Data/"
+data_name: "breast-cancer-wisconsin.csv"
+drop_columns: ["id","Unnamed: 32"]
+target_name: "diagnosis"
+test_size: 0.3
+random_state: 123
+model_directory: "./Model"
+model_name: KNN_classifier.pkl
+
+
+#kNN parameters
+n_neighbors: 3
+weights: uniform
+algorithm: auto
+leaf_size: 15
+p: 2
+metric: minkowski
+n_jobs: 1
